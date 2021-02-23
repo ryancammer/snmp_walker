@@ -1,0 +1,15 @@
+[package]
+name = "snmp_walker"
+version = "0.1.0"
+authors = ["Ryan Cammer <ryan@redshield.co>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+exitfailure = "0.5.1"
+failure = "0.1.8"
+rand = "0.7.3"
+structopt = "0.3.17"
+snmp_mp = "0.1.0"
+snmp_usm = "0.2.0"
